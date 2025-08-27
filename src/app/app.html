@@ -6,7 +6,6 @@
 <!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
 <!-- * * * * * * * to get started with your project! * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 <style>
   :host {
     --bright-blue: oklch(51.01% 0.274 263.83);
@@ -232,6 +231,61 @@
       </svg>
       <h1>Hello, {{ title() }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
+      <div class="icon-test-container">
+        <h3>FontAwesome Test Icons</h3>
+        <!-- Intentando diferentes variaciones del nombre del icono -->
+        <div class="icon-row">
+          <fa-icon [icon]="['fas', 'book-circle-arrow-right']"></fa-icon>
+          <span>book-circle-arrow-right</span>
+        </div>
+        
+        <div class="icon-row">
+          <fa-icon [icon]="['fas', 'book-arrow-right']"></fa-icon>
+          <span>book-arrow-right</span>
+        </div>
+        
+        <div class="icon-row">
+          <fa-icon [icon]="['fas', 'circle-arrow-right']"></fa-icon>
+          <span>circle-arrow-right</span>
+        </div>
+        
+        <div class="icon-row">
+          <fa-icon [icon]="['fas', 'arrow-circle-right']"></fa-icon>
+          <span>arrow-circle-right</span>
+        </div>
+        
+        <div class="icon-row">
+          <fa-icon [icon]="['fas', 'book-reader']"></fa-icon>
+          <span>book-reader</span>
+        </div>
+        
+        <!-- Algunos iconos comunes para verificar que FontAwesome funciona -->
+        <div class="icon-row">
+          <fa-icon [icon]="['fas', 'coffee']"></fa-icon>
+          <span>coffee</span>
+        </div>
+        
+        <div class="icon-row">
+          <fa-icon [icon]="['far', 'heart']"></fa-icon>
+          <span>heart</span>
+        </div>
+        
+        <div class="icon-row">
+          <fa-icon [icon]="['fas', 'user']"></fa-icon>
+          <span>user</span>
+        </div>
+        
+        <div class="icon-row">
+          <fa-icon [icon]="['fas', 'home']"></fa-icon>
+          <span>home</span>
+        </div>
+        
+        <div class="icon-row">
+          <fa-icon [icon]="['fas', 'book']"></fa-icon>
+          <span>book</span>
+        </div>
+      </div>
+
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
