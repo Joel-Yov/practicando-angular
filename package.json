@@ -28,9 +28,10 @@
     "@angular/router": "^20.1.0",
     "@fortawesome/angular-fontawesome": "^3.0.0",
     "@fortawesome/fontawesome-svg-core": "^7.0.0",
-    "@fortawesome/pro-solid-svg-icons": "^7.0.0",
-    "@fortawesome/pro-regular-svg-icons": "^7.0.0",
     "@fortawesome/pro-light-svg-icons": "^7.0.0",
+    "@fortawesome/pro-regular-svg-icons": "^7.0.0",
+    "@fortawesome/pro-solid-svg-icons": "^7.0.0",
+    "@ionic/angular": "^8.7.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
@@ -45,6 +46,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "~5.8.2"
+    "typescript": "~5.8.2",
+    "@ionic/angular-toolkit": "latest"
   }
 }

@@ -6,6 +6,7 @@ import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontaweso
 import { fas } from '@fortawesome/pro-solid-svg-icons';
 import { far } from '@fortawesome/pro-regular-svg-icons';
 import { fal } from '@fortawesome/pro-light-svg-icons';
+import { provideIonicAngular } from '@ionic/angular/standalone';
 
 export function provideFontAwesome(library: FaIconLibrary) {
   library.addIconPacks(fas, far, fal);
@@ -17,6 +18,6 @@ export const appConfig: ApplicationConfig = {
     provideZonelessChangeDetection(),
     provideRouter(routes),
     { provide: FaIconLibrary, useFactory: () => new FaIconLibrary() },
-    { provide: FontAwesomeModule, useFactory: () => provideFontAwesome }
+    { provide: FontAwesomeModule, useFactory: () => provideFontAwesome }, provideIonicAngular({})
   ]
 };
